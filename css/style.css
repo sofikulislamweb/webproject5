@@ -1,0 +1,832 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.clr{
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.header-top{
+    width: 100%;
+    background: #000;
+    color: #fff;
+    padding: 10px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.left{
+    width: 50%;
+    float: left;
+}
+
+.right{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+.menu{
+    margin-top: 25px;
+}
+.menu .logo{
+    width: 30%;
+    float: left;
+}
+.menu .menuitem{
+    width: 70%;
+    float: left;
+    
+}
+
+.menu .menuitem ul li{
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.menu .menuitem ul{
+    text-align: right;
+}
+
+.menu .menuitem ul li a{
+    margin-left: 20px;
+    color: #000;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.menu .menuitem ul li a:hover{
+    color: red;
+}
+.banner{
+    background: url(../images/banner.png) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    margin-top: 20px;
+    padding: 90px 0;
+}
+.banner-text1{
+     font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    color: #0f2f44;
+    
+}
+
+.banner-text2{
+     font-family: 'Abril Fatface', cursive;
+    font-size:  80px;
+    color: #0f2f44;
+    
+}
+.banner .Our{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+     color: #aab0d8;
+    letter-spacing: 14px;
+}
+.banner .details{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    width: 400px;
+    line-height: 25px;
+}
+
+
+.banner a{
+    display: inline-block;
+    color: #ffffff;
+    background: #8484bf;
+    padding: 12px 19px;
+    margin-top: 32px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 500;
+   border-radius: 5px;
+    border: 1px solid #8484bf;
+}
+.banner a:hover{
+    background:  #ffffff;
+     color:#8484bf;
+    
+}
+
+.banner i{
+    width: 50px;
+    height: 50px;
+    border: 1px;
+    border-radius: 50%;
+    font-size: 20px !important;
+    color: blue;
+    text-align: center;
+    background: #fff;
+    line-height: 50px; !important;
+    transition: 1s;
+   
+}
+
+.banner i:hover{
+    background: blue;
+    color: #fff;
+}
+.about-part{
+    margin-top: 70px;
+}
+
+.about-part-1-left{
+    width: 50%;
+    float: left;
+    
+}
+.about-part-2-right{
+    width: 50%;
+     float: left;
+    height: auto;
+    
+    
+}
+
+.about-part-1-left h2{
+     font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #000;
+    
+}
+
+.about-part-1-left h1{
+     font-family: 'Abril Fatface', cursive;
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 32px;
+    margin-top: -8px;
+}
+
+.about-part-1-left p{
+     font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 21px;
+}
+
+.about-part-1-left ul li{
+    margin-top: 10px;
+     font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #000;
+    
+}
+
+
+.about-part .know-more{
+     display: inline-block;
+    color: #000;
+    background: #fff;
+    padding: 12px 19px;
+    margin-top: 32px;
+    margin-right: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px;
+    font-family: 'Open Sans', sans-serif;
+    transition: 1s;
+}
+
+.about-part .know-more:hover{
+    background: #e9f215;
+    
+}
+
+.about-part .Read-more{
+     display: inline-block;
+    color: #000;
+    background: #fff;
+    padding: 12px 19px;
+    margin-top: 32px;
+    margin-right: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px;
+    font-family: 'Open Sans', sans-serif;
+    transition: 1s;
+}
+
+.about-part .Read-more:hover{
+    background: #e9f215;
+    
+}
+
+
+.ss img{
+  
+    margin-top: 10px;
+    width: 100%;
+    
+}
+
+.service-part{
+    margin-top: 100px;
+    background: #f5f5f5;
+    padding-top: 52px;
+    padding-bottom: 40px;
+}
+.service-part p{
+    text-align: center;
+     font-size: 14px;
+     color: #000;
+     font-family: 'Open Sans', sans-serif;
+}
+
+.service-part h3{
+    text-align: center;
+    font-size: 32px;
+    color: #000;
+      font-family: 'Abril Fatface', cursive;
+    
+}
+
+.service-part .one{
+    width: 360px;
+    height: 150px;
+    margin-top: 30px;
+    position: relative;
+    background: #e8e6e6;
+    float: left;
+    margin-left: 15px;
+}
+
+.service-part .one .img{
+    width: 30%;
+    height: 150px;
+   
+    float: left;
+     position: relative;
+}
+
+.service-part .one .text-content{
+    width: 70%;
+    height: 150px;
+    padding: 10px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.service-part .one .img img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+
+.service-part .one .text-content h3{
+    color: #999;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.service-part .one .text-content p{
+    color:#000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.service-part .one .overlay{
+    width: 0%;
+    height: 100%;
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+     font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    opacity: 0;
+    transition: .4s;
+    
+    
+}
+
+.service-part .one:hover .overlay{
+    width: 100%;
+    opacity: 1;
+}
+
+.service-part .one .overlay img{
+    margin-top: 25px;
+}
+
+.service-part .one .overlay .button{
+    margin-top: 20px;
+}
+
+
+.service-part .one .overlay .button a{
+    display: inline-block;
+}
+
+.service-part .one .overlay .button a i{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    line-height: 35px;
+    font-size: 16px;
+    background: #fff;
+    transition: .4s;
+}
+
+
+.service-part .one .overlay .button a i:hover{
+    background: #ceff00;
+}
+
+
+
+.portfolio{
+    margin-top: 80px;
+}
+
+
+
+.portfolio p{
+    text-align: center;
+     font-size: 14px;
+     color: #000;
+     font-family: 'Open Sans', sans-serif;
+}
+
+.portfolio h3{
+    text-align: center;
+    font-size: 32px;
+    color: #000;
+      font-family: 'Abril Fatface', cursive;
+
+}
+.portfolio .one{
+    width: 320px;
+	height: 385px;
+	float: left;
+	margin-left: 60px;
+	margin-top: 40px;
+    position: relative;
+}
+
+
+.portfolio .one img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.portfolio .one .overlay{
+    width: 100%;
+    height: 12%;
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    opacity: 0;
+    transition: .8s;
+}
+
+
+.portfolio .one .overlay p{
+    font-size: 14px;
+     color: #000;
+     font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    
+}
+
+.portfolio .one:hover .overlay{
+	opacity: 1;
+	letter-spacing: 3px;
+}
+
+.portfolio .button{
+    margin-top: 50px;
+    text-align: center;
+    
+}
+
+.portfolio .button a{
+      background: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: inline-block;
+     font-size: 20px;
+     color: #000;
+     font-family: 'Open Sans', sans-serif;
+    transition: .4s;
+    
+}
+
+.portfolio .button a:hover{
+    background: #d6e612;
+}
+
+
+.testi{
+    margin-top: 80px;
+}
+
+.testi p{
+    text-align: center;
+     font-size: 14px;
+     color: #000;
+     font-family: 'Open Sans', sans-serif;
+}
+
+.testi h3{
+    text-align: center;
+    font-size: 32px;
+    color: #000;
+      font-family: 'Abril Fatface', cursive;
+
+}
+
+
+.testi .one{
+    width: 560px;
+	height: 200px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 40px;
+}
+
+
+.testi .one .img{
+	width: 38%;
+	height: 200px;
+	float: left;
+}
+
+
+.testi .one .img img{
+	width: 100%;
+	height: 100%;
+}
+
+
+.testi .one .text{
+    width: 62%;
+    height: 200px;
+    float: left;
+	box-sizing: border-box;
+	padding: 15px;
+}
+
+.testi .one .text .details{
+	margin-top: 15px;
+	color: #0f2f44;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: left;
+}
+
+.testi .one .text .san{
+	margin-top: 25px;
+	color: #0f2f44;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	text-align: left;
+}
+
+.testi .one .text .nation{
+	margin-top: -2px;
+	text-align: left;
+	color: #0f2f44;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+
+
+.blog{
+ margin-top: 80px;
+}
+
+.blog .what{
+	color: #0f2f44;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	text-align: center;
+}
+
+.blog .our{
+	color: #0f2f44;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 32px;
+	text-align: center;
+	font-weight: 300;
+}
+
+.blog .one{
+	width: 320px;
+	height: 430px;
+	padding: 20px;
+	float: left;
+	margin-top: 60px;
+	margin-left: 60px;
+	border-radius: 5px;
+	box-sizing: border-box;
+	transition: linear .5s;
+}
+
+.blog .one .img{
+	width: 280px;
+	height: 250px;
+}
+
+.blog .one .img img{
+	width: 100%;
+	height: 100%;
+}
+
+.blog .one .content-text .date{
+	color: #777;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	margin-top: 20px;
+	transition: linear .5s;
+}
+
+.blog .one .content-text .adv{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	margin: 10px 0;
+	color: #222;
+	font-weight: 300;
+	transition: linear .5s;
+}
+
+
+.blog .one .content-text a{
+	display: inline-block;
+	margin-top: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #777;
+	transition: linear .5s;
+}
+
+.blog .one .content-text a i{
+	padding-left: 10px;
+}
+
+.blog .one:hover{
+	color: #fff;
+	background: #0f2f44;
+}
+
+.blog .one:hover .content-text .date{
+	color: #fff;
+}
+
+.blog .one:hover .content-text .adv{
+	color: #fff;
+	
+}
+
+.blog .one:hover .content-text a{
+	color: #fff;
+}
+
+.blog .button{
+	text-align: center;
+	margin-top: 80px;
+}
+
+.blog .button a{
+	display: inline-block;
+	color: #0f2f44;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	transition: linear 0.5s;
+}
+
+.blog .button a:hover{
+	background: #ffc712;
+}
+
+
+.foter-top{
+    margin-top: 80px;
+}
+
+.foter-top .button{
+    text-align: center;
+    
+}
+
+.foter-top .button a{
+    display: inline-block;
+    color: #fff;
+}
+
+.foter-top .button a i{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    background: #f0df15;
+    border-radius: 50%;
+    font-size: 20px;
+    transition: .5s;
+}
+
+.foter-top .button a i:hover{
+    background: #000;
+    transform: rotate(360deg);
+}
+
+
+.foter-top .part-one{
+    width: 280px;
+    margin-top: 30px;
+    margin-left: 5px;
+    float: left;
+}
+
+.foter-top .part-one .logo{
+    margin-bottom: 25px;
+}
+
+.foter-top .part-one .details p{
+     font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+.foter-top .part-one .social-icon{
+    margin-top: 20px;
+    
+}
+.foter-top .part-one .social-icon ul li{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.foter-top .part-one .social-icon ul li a{
+    color: #000;
+}
+
+.foter-top .part-one .social-icon ul li a i{
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    text-align: center;
+    font-size: 20;
+    transition: .4s;
+    
+}
+
+.foter-top .part-one .social-icon ul li a i:hover{
+	color: #fff;
+	background: #0f2f44;
+	transform: rotate(360deg);
+}
+
+.foter-top .part-one .con{
+	color: #3b3e42;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.foter-top .part-one .icon{
+	margin-top: 22px;
+}
+
+.foter-top .part-one .icon li{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300px;
+    color: #777;
+	margin-bottom: 25px;
+	font-size: 14px;
+    position: relative;
+    
+}
+
+.foter-top .part-one .icon li i{
+	font-size: 24px;
+	color: #777;
+    position: absolute;
+    top: 2px;
+    left: 6px;
+}
+
+.foter-top .part-one .icon li p{
+    margin-left: 38px;
+}
+
+.foter-top .part-two{
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 5px;
+    float: left;
+}
+.foter-top .part-two .link{
+	color: #3b3e42;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.foter-top .part-two .link-items{
+	margin-top: 28px;
+}
+
+.foter-top .part-two .link-items li{
+	margin-bottom: 20px;
+}
+
+.foter-top .part-two .link-items li a{
+	color: #3b3e42;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+	transition: linear .5s;
+}
+
+.foter-top .part-two .link-items li a:hover{
+	padding-left: 20px;
+}
+
+
+.foter-top .part-three{
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 5px;
+    float: left;
+    
+}
+
+
+.foter-top .part-three .flick{
+    color: #3b3e42;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+
+.foter-top .part-three .img{
+    float: left;
+    margin: 5px;
+    
+}
+
+
+.foter-end{
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
